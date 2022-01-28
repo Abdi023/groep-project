@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Rijksmuseum</title>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="cons">
+            <li class="center"><a href="interout.html">English</a></li>
+            <li><a href="geschiedenisEN.html">About us</a></li>
+            <li><a href="interoutEN.html"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li id="rechts"><a href="https://www.rijksmuseum.nl/en/tickets/articles">Tickets</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <img id="myImage" src="img/route1.png" alt="foto sb">
+        <div id="myInteraction">
+            <div id="myTitle">spot 1</div>
+            <input type="text" id="myInput" autocomplete="off">
+            <input type="button" value="submit" onclick="getinput()">
+            <h3>Choose which way you want to go:</h3>
+            <nav>
+                <button id="KnopNoord" onclick="goDirection('noord')">North</button>
+                <button id="KnopOost" onclick="goDirection('oost')">East</button><button id="KnopWest"
+                    onclick="goDirection('west')">West</button>
+                <button id="KnopZuid" onclick="goDirection('zuid')">South</button>
+            </nav>
+            <img src="img/goedegrond.png">
+        </div>
+    </div>
+    <script src="script-nl.js"></script>
+
+</body>
+</html>

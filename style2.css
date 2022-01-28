@@ -1,0 +1,189 @@
+
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin-top: 0;
+}
+
+
+body {
+    margin: 0 auto;
+    background-color: lightgray;
+    background-size: cover;
+    font-style: 24px;
+    font-family: lora, serif, 'Open Sans', sans-serif;
+    color: #222831;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.navigation ul {
+    font-size: 1.5em;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+@media only screen and(max-width: 600px) {
+    .navigation {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.cons li{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+ul {
+    padding: 15px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+
+#rechts {
+    margin-left: auto;
+}
+
+h1 {
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    color: #C0B2AF;
+}
+
+
+
+nav > ul > li> a{
+    height: 100%;
+    width: 100%;
+    display:block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+#container{
+    background-color: #4c7eb0;
+    width: 77vw; 
+    margin: 50px auto auto auto; 
+    object-fit: cover;
+}
+
+#myInteraction{
+    padding: 10px;
+}
+
+#myImage{
+    width: 100%;
+    height: 70%;
+}
+
+nav > button{
+    background-color: #253d56;
+    color: white;
+    font-size: 16px;
+}
+
+#KnopNoord, #KnopZuid{
+    display: block; 
+    width: 300px;
+    text-align: center;
+}
+
+#KnopWest, #KnopOost{
+    display: inline-block;
+    width: 150px;
+}
+
+#plattegrond{
+    display: flex;
+}
+
+
+p > a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+@media screen and (max-width:1000px){
+    article{
+        width: 80vw;
+    }
+    footer > p{
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .top{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+    }
+
+    header{
+        height: auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav > ul{
+        display: block;
+    }
+    h2 > p{
+        width: 100%;
+    }
+    img{
+        width: 70vw;
+    }
+}
+
+@media screen and(max-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+    article{
+        width: 100vw;
+        padding: 20px;
+    }
+    h1{
+        font-size: 180%;
+    }
+    footer > p{
+        width: 100vw;
+        padding-left: 20px
+    }
+}
