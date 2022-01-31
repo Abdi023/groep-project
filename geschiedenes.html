@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,46 +9,51 @@
     <title>Rijksmuseum</title>
 
     <style>
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Poppins', sans-serif;
         }
-        
-        p{
+
+        p {
             color: #555;
         }
-        .container{
+
+        .container {
             max-width: 1300px;
             margin: auto;
             padding-left: 25px;
             padding-right: 25px;
         }
-        .row{
+
+        .row {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        .col-2{
+
+        .col-2 {
             flex-basis: 50%;
             min-width: 300px;
         }
-        .col-2 img{
+
+        .col-2 img {
             max-width: 100%;
             padding: 50px 0;
         }
-        .col-2 h1{
+
+        .col-2 h1 {
             font-size: 50px;
             line-height: 60px;
             margin: 25px 0;
         }
-        .btn{
+
+        .btn {
             display: inline-block;
             background: #ff523b;
             color: #fff;
@@ -55,431 +61,462 @@
             margin: 30px 0;
             border-radius: 30px;
             transition: background 0.5s;
-        
+
         }
-        
-        
+
+
         .col-3 {
             flex-basis: 30%;
             min-width: 250px;
             margin-bottom: 30px;
         }
-        
-        .col-3 img{
+
+        .col-3 img {
             width: 100%;
         }
-        
-        .small-container{
+
+        .small-container {
             max-width: 1080px;
             margin: auto;
             padding-left: 25px;
             padding-right: 25px;
         }
-        .col-4{
+
+        .col-4 {
             flex-basis: 25%;
             padding: 10px;
             min-width: 200px;
             margin-bottom: 50px;
             transition: transform 0.5s;
         }
-        .col-4 img{
+
+        .col-4 img {
             width: 100%;
         }
-        h4{
+
+        h4 {
             color: #555;
             font-weight: normal;
         }
-        .col-4 p{
+
+        .col-4 p {
             font-size: 14px;
         }
-        .rating .fa{
+
+        .rating .fa {
             color: #ff523b;
         }
-        .col-4:hover{
+
+        .col-4:hover {
             transform: translateY(-5px);
         }
-        
+
         /*------- offer -------*/
-        .offer{
-            background: radial-gradient(#fff,#ffd6d6);
+        .offer {
+            background: radial-gradient(#fff, #ffd6d6);
             margin-top: 80px;
             padding: 30px 0;
         }
-        .col-2 .offer-img{
+
+        .col-2 .offer-img {
             padding: 50px;
         }
-        small{
+
+        small {
             color: #555;
         }
-        
+
         /*------- testimonial -------*/
-        
-        .testimonial{
+
+        .testimonial {
             padding-top: 100px;
             color: black;
         }
-        .testimonial .col-3{
+
+        .testimonial .col-3 {
             text-align: center;
             padding: 40px 20px;
-            box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
             cursor: pointer;
-            transition: transform 0.5;
         }
-        .testimonial .col-3 img{
+
+        .testimonial .col-3 img {
             width: 50px;
             margin-top: 20px;
             border-radius: 50%;
         }
-        
-        .testimonial .col-3:hover{
+
+        .testimonial .col-3:hover {
             transform: translateY(-10px);
         }
-        .fa.fa-quote-left{
+
+        .fa.fa-quote-left {
             font-size: 34px;
             color: #ff523b;
         }
-        .col-3 p{
+
+        .col-3 p {
             font-size: 12px;
             margin: 12px 0;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             font-style: 24px;
         }
-        
-        .testimonial .col-3 h3{
+
+        .testimonial .col-3 h3 {
             font-weight: 600;
             color: #555;
             font-size: 16px;
         }
-        
+
         /*------ brands ------*/
-        .brands{
+        .brands {
             margin: 100px auto;
         }
-        .col-5{
+
+        .col-5 {
             width: 160px;
         }
-        .col-5 img{
+
+        .col-5 img {
             width: 100%;
             cursor: pointer;
             filter: grayscale(100%);
         }
-        .col-5 img:hover{
+
+        .col-5 img:hover {
             filter: grayscale(0);
         }
-        
-        
-        
-        
-        
-        
-        
-        
-            </style>
+    </style>
 </head>
+
 <body>
-        <nav class="navigation">
-            <ul class="cons">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="geschiedenisEN.html">GeschiedenisEN</a></li>
-                <li><a href="interout.html">Interout</a></li>
-                <li><a href="interoutEN.html">InteroutEN</a></li>
-                <li><a href="index.html">Over ons</a></li>
-                <li id="rechts"><a href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a></li>
-            </ul>
-        </nav>
+    <nav class="navigation">
+        <ul class="cons">
+            <li><a href="geschiedenisEN.html">English</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="interout.html">Interout</a></li>
+            <li><a href="index.html">Over ons</a></li>
+            <li id="rechts"><a href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a></li>
+        </ul>
+    </nav>
 
 
 
     <article>
         <div class="img-passen">
-        <img src="mu.jpg"" alt="">
+            <img src="mu.jpg" alt="Man die voor het schilderij het melkmeisje staat">
         </div>
         <h1>RijksMuseum's geschiedenis</h1>
         <div class="text-develop">
-        <p>
-            HOE HET BEGON
-            Op 19 november 1798,
-            besloot de regering naar Frans voorbeeld een nationaal museum op te richten. 
-            Een 'prestigeproject' om de liefde voor het land aan te wakkeren maar ook om belangrijke voorwerpen te bewaren. 
-            Op 31 mei 1800 opende deze Nationale Kunstgalerij voor het eerst zijn deuren in Huis Ten Bosch in Den Haag. 
-            Met ruim 200 schilderijen en historische voorwerpen, 
-            deels uit de stadhouderlijke collecties en deels uit (opgeheven) landelijke instellingen, 
-            zoals de VOC. 
-            De eerste aankoop, 
-            De Zwaan van Jan Asselijn, 
-            kostte 100 gulden en is nog steeds een van de topstukken van het Rijksmuseum.
-        </p>
-        <p>
-            HET 'KONINKLIJK MUSEUM'
-            In 1808 stond Lodewijk Napoleon aan het roer van het Koninkrijk Holland.
-            Hij verhuisde de collecties naar Amsterdam, 
-            de nieuwe hoofdstad. 
-            niet naar zomaar een gebouw maar naar het Paleis op de Dam, 
-            het voormalige Amsterdamse stadhuis. 
-            Daar werden ze samengebracht met de belangrijkste schilderijen van de stad, 
-            waaronder de Nachtwacht van Rembrandt. In 1809 opende het Koninklijk Museum op de bovenverdieping van het paleis.
-        </p>
-        <p>
-            HET 'RIJKS MUSEUM'
-            Met Willem I als nieuwe koning vanaf 1813, 
-            verhuisde het museum als 'Rijks Museum' samen met de uit Den Haag afkomstige nationale prentencollectie naar het Trippenhuis, 
-            een 17de-eeuws stadspaleis aan de Kloveniersburgwal. 
-            Tot ongenoegen van de directeur werden vervolgens allerlei andere collecties elders ondergebracht. 
-            Voorwerpen uit de klassieke oudheid gingen naar een nieuw Museum van Oudheden in Leiden en voorwerpen en kunstnijverheid werden aan het inmiddels in Den Haag opgerichte Kabinet van Zeldzaamheden toegewezen. 
-            In Haarlem kwam in 1838 in Paviljoen Welgelegen een apart museum voor moderne, 
-            19de-eeuwse kunst. 
-            In tegenstelling tot in de Napoleontijd, 
-            kreeg het Rijks Museum weinig grote werken.
-        </p>
-        <p>
-            EEN NIEUW GEBOUW
-            Overal in Europa werden mooie musea gebouwd. 
-            Ook Nederland verdiende een echt nationaal, 
-            trots museumgebouw. 
-            Het Trippenhuis was niet geschikt, 
-            dus mocht er iets nieuws gebouwd worden. 
-            De architect, Pierre Cuypers, 
-            had voor het Rijksmuseum een ontwerp in historische stijl gemaakt, 
-            een mengeling van gotiek en renaissance en vol van vaderlandse symboliek. 
-            Na jarenlang gedoe (velen vonden het te middeleeuws, 
-            te katholiek en te weinig écht Nederlands) startte de bouw in 1876. 
-            In 1885 werd het officieel geopend. 
-            Naast de bestaande collectie kwamen bijna alle oudere schilderijen van de Stad Amsterdam in het Rijksmuseum te hangen, 
-            zoals Rembrandts Joodse bruidje die de bankier A. van der Hoop aan de stad had nagelaten. Ook kwam er kunst uit Haarlem, 
-            kreeg een deel van het Kabinet van Zeldzaamheden een vaste plek en het prentenkabinet een eigen ruimte. 
-            Een waardige collectie, in een schitterend gebouw.
-        </p>
-        <p>
-            RENOVATIE OP RENOVATIE
-            In de loop der jaren is aan het Rijksmuseumgebouw veel gesleuteld. 
-            Zo werden tussen 1904 en 1916 aan de zuidwestzijde zalen aangebouwd, 
-            de huidige Philipsvleugel. 
-            In de jaren '50 en '60 werden de oorspronkelijke twee binnenhoven volgebouwd om meer zaalruimte te creëren. 
-            Na 1945 werden Vaderlandse Geschiedenis en Beeldhouwkunst & Kunstnijverheid in aparte delen van het gebouw ondergebracht. 
-            Pogingen om voor de Nederlandse geschiedenis een apart museum op te richten en zo van het Rijksmuseum een echt kunstmuseum te maken mislukten. 
-            In de jaren '50 ontstond een afdeling Aziatische Kunst als gevolg van de onderbrenging van de collectie van de Vereniging van Vrienden der Aziatische Kunst. 
-            De 70'er jaren waren booming, 
-            met bijna anderhalf miljoen bezoekers per jaar. 
-            Maar het gebouw zelf voldeed steeds minder aan de moderne eisen voor een museum. 
-            Wat nu?
-        </p>
-        <p>
-            DE CIRKEL IS ROND
-            Bij de laatste renovatie (2003-2013) kreeg het gebouw de oorspronkelijke structuur van Cuypers terug. 
-            Het gebouw is gemoderniseerd maar is tegelijkertijd van binnen weer meer het gebouw van Cuypers geworden, 
-            in al z'n grandeur. 
-            Schilderkunst, 
-            kunstnijverheid en geschiedenis zijn niet meer in aparte delen van het gebouw te zien. 
-            Alles vormt samen één chronologisch verhaal: het verhaal over de Nederlandse kunst en geschiedenis, 
-            van de Middeleeuwen tot en met de 20e eeuw. Meteen in 2013 trok het museum een tot dan toe ongekend aantal bezoekers, 
-            ruim twee miljoen, en dat is mede dankzij de vele toeristen tot aan de coronatijd zo gebleven. 
-            Want meer dan ooit streven we ernaar om hét museum van en voor iedereen te zijn.   
-        </p>
-
-
-
-
-
-
-
-        <div class="review">
-    <h2 style="text-align: center;">Revieuws</h2>
-
-<!-- begin -->
-
-<!-- Testimonial Slider from Baamboo Studio modified for The Mentor Group (http://www.mentor-group.com/clients--testimonials.html) -->
-
-<!-- TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2  -->
-<div class="testimonial_slider_2">
-    <input type="radio" name="slider_2" id="slide_2_1" checked />
-    <input type="radio" name="slider_2" id="slide_2_2" />
-    <input type="radio" name="slider_2" id="slide_2_3" />
-    <input type="radio" name="slider_2" id="slide_2_4" />
-    <div class="boo_inner clearfix">
-        <div class="slide_content">
-            <div class="testimonial_2">
-                <div class="content_2">
-                    <p>Zeer de moeite waard om naar de vaste collectie of een expositie te gaan. 
-                        Er is zoveel te zien dat je keuzes moet maken of er een dag voor uittrekken. 
-                        Fijn restaurant en leuke winkel in het museum.</p>
-                </div>
-                <div class="author_2">
-                    <h3>Karen Sweetland</h3>
-                    <h4>Geschreven op 8 december 2021</h4>
-                </div>
-            </div>
-        </div>
-        <div class="slide_content">
-            <div class="testimonial_2">
-                <div class="content_2">
-                    <p>Gewoon hoe een goed museum is en hoort te zijn. Top Notch. Uitstekende beveiliging overal, prachtige
-                        collecties en alles is zeer overzichtelijk. Kennismaken met Nederlands rijke en af en toe donkere
-                        historie is op deze manier adembenemend.</p>
-                </div>
-                <div class="author_2">
-                    <h3>Leah Jordan</h3>
-                    <h4>Geschreven op 20 november 2021</h4>
-                </div>
-            </div>
-        </div>
-        <div class="slide_content">
-            <div class="testimonial_2">
-                <div class="content_2">
-                    <p>Ik vind het een mooi gebouw. 
-                        Maar van mij part had het gebouw zelf iets met de tijd mogen meegaan.
-                        De plaatsing van gebouw vind ik mooi. 
-                        Vooral met dat water ervoor. 
-                        Alleen wat ik lelijk vind is dat het lijkt alsof er zonnepanelen op het dak liggen. 
-                        Of dat nou echt zo is of dat het ramen zijn, 
-                        ik weet het niet. 
-                        Maar dat is wel een doorn in het oog! 
-                        Als je in de buurt bent is het leuk om langs te gaan, 
-                        maar heel bijzonder is het nauw ook niet.</p>
-                </div>
-                <div class="author_2">
-                    <h3>Brian McNaught</h3>
-                    <h4>Geschreven op 27 oktober 2021</h4>
-                </div>
-            </div>
-        </div>
-        <div class="slide_content">
-            <div class="testimonial_2">
-                <div class="content_2">
-                    <p>Portretten uit de renaissance in de tentoonstelling Vergeet me niet (Remember me). 
-                        Mooie schilderijen en goed toegelicht. 
-                        Alleen de toelichting van Ellen Deckwitz viel enigszins uit de toon. 
-                        Het was gelukkig niet al te druk zodat je de tijd had om het schilderij te bekijken en naar de audiotour te luisteren. 
-                        Geen toeslag met een museumkaart.</p>
-                </div>
-                <div class="author_2">
-                    <h3>Lee Barker</h3>
-                    <h4>Geschreven op 15 oktober 2021</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div id="controls">
-        <label for="slide_2_1"></label>
-        <label for="slide_2_2"></label>
-        <label for="slide_2_3"></label>
-        <label for="slide_2_4"></label>
-    </div>
-</div> 
-
-
-
-<!-- einde -->
-
-
-<!-- begin -->
-
-
-    
-    
-        <div class="testimonial">
-            <div class="small-container">
-                <div class="row">
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Alleen het gebouw is al de moeite waard. Mooie schilderijen van grote meesters aanschouwd en de bibliotheek bezocht.
-                        Wij wisten niet dat een tijdslot-reservering noodzakelijk was maar gelukkig werden we zéér goed geholpen door het personeel bij de ingang (op straat)
-                        men merkte dat we hulp nodig hadden en boden dit gelijk aan. Perfecte service!!</p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-1.png">
-                        <h3>Swetie Sweetland</h3>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Gewoon hoe een goed museum is en hoort te zijn. Top Notch. Uitstekende beveiliging overal, prachtige
-                            collecties en alles is zeer overzichtelijk. Kennismaken met Nederlands rijke en af en toe donkere
-                            historie is op deze manier adembenemend.</p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-2.png">
-                        <h3>Dhifte Waaye</h3>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Als je het koud hebt en een warm plekje met veel sfeer zoekt is dit de
-                             juiste plaats! wij hebben heerlijk genoten van een kop koffie hier</p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-3.png">
-                        <h3>Dhifte Waaye</h3>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Prachtig gebouw, vriendelijk personeel. Zalen zijn ruim en goed aangegeven.
-                        Jammer dat het af en toe wat beter verlicht zou kunnen worden.
-                        De bekende Nederlandse meesters spraken ons het meeste aan.</p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-3.png">
-                        <h3>Dhifte Waaye</h3>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Het Rijksmuseum blijft een geweldig museum.
-                            We hebben nu alleen de tentoonstelling “Vergeet me niet” gedaan en daar zijn we al een poos mee zoet geweest.
-                            We deden de audio tour en dat heeft zeker meerwaarde.
-                            Altijd doen. Dit kan ook via je eigen telefoon.
-                            Het bestellen in het restaurant via een code en online was nieuw voor ons,
-                            maar werkte prima!</p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-1.png">
-                        <h3>Dhifte Waaye</h3>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Het Rijksmuseum is absolute wereldklasse.
-                            Prachtige kunstwerken bevinden zich in een schitterend museumgebouw dat op zichzelf al een kunstwerk is.
-                            Een compliment aan de museummedewerkers,
-                            klantvriendelijkheid scoort hoog en ook dat draagt bij aan beleving. </p>
-                        <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="user-2.png">
-                        <h3>Duflaale</h3>
-                    </div>
-                </div>
-            </div>
+            <p>
+                HOE HET BEGON
+                Op 19 november 1798,
+                besloot de regering naar Frans voorbeeld een nationaal museum op te richten.
+                Een 'prestigeproject' om de liefde voor het land aan te wakkeren maar ook om belangrijke voorwerpen te
+                bewaren.
+                Op 31 mei 1800 opende deze Nationale Kunstgalerij voor het eerst zijn deuren in Huis Ten Bosch in Den
+                Haag.
+                Met ruim 200 schilderijen en historische voorwerpen,
+                deels uit de stadhouderlijke collecties en deels uit (opgeheven) landelijke instellingen,
+                zoals de VOC.
+                De eerste aankoop,
+                De Zwaan van Jan Asselijn,
+                kostte 100 gulden en is nog steeds een van de topstukken van het Rijksmuseum.
+            </p>
+            <p>
+                HET 'KONINKLIJK MUSEUM'
+                In 1808 stond Lodewijk Napoleon aan het roer van het Koninkrijk Holland.
+                Hij verhuisde de collecties naar Amsterdam,
+                de nieuwe hoofdstad.
+                niet naar zomaar een gebouw maar naar het Paleis op de Dam,
+                het voormalige Amsterdamse stadhuis.
+                Daar werden ze samengebracht met de belangrijkste schilderijen van de stad,
+                waaronder de Nachtwacht van Rembrandt. In 1809 opende het Koninklijk Museum op de bovenverdieping van
+                het paleis.
+            </p>
+            <p>
+                HET 'RIJKS MUSEUM'
+                Met Willem I als nieuwe koning vanaf 1813,
+                verhuisde het museum als 'Rijks Museum' samen met de uit Den Haag afkomstige nationale prentencollectie
+                naar het Trippenhuis,
+                een 17de-eeuws stadspaleis aan de Kloveniersburgwal.
+                Tot ongenoegen van de directeur werden vervolgens allerlei andere collecties elders ondergebracht.
+                Voorwerpen uit de klassieke oudheid gingen naar een nieuw Museum van Oudheden in Leiden en voorwerpen en
+                kunstnijverheid werden aan het inmiddels in Den Haag opgerichte Kabinet van Zeldzaamheden toegewezen.
+                In Haarlem kwam in 1838 in Paviljoen Welgelegen een apart museum voor moderne,
+                19de-eeuwse kunst.
+                In tegenstelling tot in de Napoleontijd,
+                kreeg het Rijks Museum weinig grote werken.
+            </p>
+            <p>
+                EEN NIEUW GEBOUW
+                Overal in Europa werden mooie musea gebouwd.
+                Ook Nederland verdiende een echt nationaal,
+                trots museumgebouw.
+                Het Trippenhuis was niet geschikt,
+                dus mocht er iets nieuws gebouwd worden.
+                De architect, Pierre Cuypers,
+                had voor het Rijksmuseum een ontwerp in historische stijl gemaakt,
+                een mengeling van gotiek en renaissance en vol van vaderlandse symboliek.
+                Na jarenlang gedoe (velen vonden het te middeleeuws,
+                te katholiek en te weinig écht Nederlands) startte de bouw in 1876.
+                In 1885 werd het officieel geopend.
+                Naast de bestaande collectie kwamen bijna alle oudere schilderijen van de Stad Amsterdam in het
+                Rijksmuseum te hangen,
+                zoals Rembrandts Joodse bruidje die de bankier A. van der Hoop aan de stad had nagelaten. Ook kwam er
+                kunst uit Haarlem,
+                kreeg een deel van het Kabinet van Zeldzaamheden een vaste plek en het prentenkabinet een eigen ruimte.
+                Een waardige collectie, in een schitterend gebouw.
+            </p>
+            <p>
+                RENOVATIE OP RENOVATIE
+                In de loop der jaren is aan het Rijksmuseumgebouw veel gesleuteld.
+                Zo werden tussen 1904 en 1916 aan de zuidwestzijde zalen aangebouwd,
+                de huidige Philipsvleugel.
+                In de jaren '50 en '60 werden de oorspronkelijke twee binnenhoven volgebouwd om meer zaalruimte te
+                creëren.
+                Na 1945 werden Vaderlandse Geschiedenis en Beeldhouwkunst & Kunstnijverheid in aparte delen van het
+                gebouw ondergebracht.
+                Pogingen om voor de Nederlandse geschiedenis een apart museum op te richten en zo van het Rijksmuseum
+                een echt kunstmuseum te maken mislukten.
+                In de jaren '50 ontstond een afdeling Aziatische Kunst als gevolg van de onderbrenging van de collectie
+                van de Vereniging van Vrienden der Aziatische Kunst.
+                De 70'er jaren waren booming,
+                met bijna anderhalf miljoen bezoekers per jaar.
+                Maar het gebouw zelf voldeed steeds minder aan de moderne eisen voor een museum.
+                Wat nu?
+            </p>
+            <p>
+                DE CIRKEL IS ROND
+                Bij de laatste renovatie (2003-2013) kreeg het gebouw de oorspronkelijke structuur van Cuypers terug.
+                Het gebouw is gemoderniseerd maar is tegelijkertijd van binnen weer meer het gebouw van Cuypers
+                geworden,
+                in al z'n grandeur.
+                Schilderkunst,
+                kunstnijverheid en geschiedenis zijn niet meer in aparte delen van het gebouw te zien.
+                Alles vormt samen één chronologisch verhaal: het verhaal over de Nederlandse kunst en geschiedenis,
+                van de Middeleeuwen tot en met de 20e eeuw. Meteen in 2013 trok het museum een tot dan toe ongekend
+                aantal bezoekers,
+                ruim twee miljoen, en dat is mede dankzij de vele toeristen tot aan de coronatijd zo gebleven.
+                Want meer dan ooit streven we ernaar om hét museum van en voor iedereen te zijn.
+            </p>
         </div>
 
 
-<!-- eonde -->
+
+
+
+
+
+            <div class="review">
+                <h2 style="text-align: center;">Revieuws</h2>
+
+                <!-- begin -->
+
+                <!-- Testimonial Slider from Baamboo Studio modified for The Mentor Group (http://www.mentor-group.com/clients--testimonials.html) -->
+
+                <!-- TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2  -->
+                <div class="testimonial_slider_2">
+                    <input type="radio" name="slider_2" id="slide_2_1" checked />
+                    <input type="radio" name="slider_2" id="slide_2_2" />
+                    <input type="radio" name="slider_2" id="slide_2_3" />
+                    <input type="radio" name="slider_2" id="slide_2_4" />
+                    <div class="boo_inner clearfix">
+                        <div class="slide_content">
+                            <div class="testimonial_2">
+                                <div class="content_2">
+                                    <p>Zeer de moeite waard om naar de vaste collectie of een expositie te gaan.
+                                        Er is zoveel te zien dat je keuzes moet maken of er een dag voor uittrekken.
+                                        Fijn restaurant en leuke winkel in het museum.</p>
+                                </div>
+                                <div class="author_2">
+                                    <h3>Karen Sweetland</h3>
+                                    <h4>Geschreven op 8 december 2021</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide_content">
+                            <div class="testimonial_2">
+                                <div class="content_2">
+                                    <p>Gewoon hoe een goed museum is en hoort te zijn. Top Notch. Uitstekende
+                                        beveiliging overal, prachtige
+                                        collecties en alles is zeer overzichtelijk. Kennismaken met Nederlands rijke en
+                                        af en toe donkere
+                                        historie is op deze manier adembenemend.</p>
+                                </div>
+                                <div class="author_2">
+                                    <h3>Leah Jordan</h3>
+                                    <h4>Geschreven op 20 november 2021</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide_content">
+                            <div class="testimonial_2">
+                                <div class="content_2">
+                                    <p>Ik vind het een mooi gebouw.
+                                        Maar van mij part had het gebouw zelf iets met de tijd mogen meegaan.
+                                        De plaatsing van gebouw vind ik mooi.
+                                        Vooral met dat water ervoor.
+                                        Alleen wat ik lelijk vind is dat het lijkt alsof er zonnepanelen op het dak
+                                        liggen.
+                                        Of dat nou echt zo is of dat het ramen zijn,
+                                        ik weet het niet.
+                                        Maar dat is wel een doorn in het oog!
+                                        Als je in de buurt bent is het leuk om langs te gaan,
+                                        maar heel bijzonder is het nauw ook niet.</p>
+                                </div>
+                                <div class="author_2">
+                                    <h3>Brian McNaught</h3>
+                                    <h4>Geschreven op 27 oktober 2021</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide_content">
+                            <div class="testimonial_2">
+                                <div class="content_2">
+                                    <p>Portretten uit de renaissance in de tentoonstelling Vergeet me niet (Remember
+                                        me).
+                                        Mooie schilderijen en goed toegelicht.
+                                        Alleen de toelichting van Ellen Deckwitz viel enigszins uit de toon.
+                                        Het was gelukkig niet al te druk zodat je de tijd had om het schilderij te
+                                        bekijken en naar de audiotour te luisteren.
+                                        Geen toeslag met een museumkaart.</p>
+                                </div>
+                                <div class="author_2">
+                                    <h3>Lee Barker</h3>
+                                    <h4>Geschreven op 15 oktober 2021</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="controls">
+                        <label for="slide_2_1"></label>
+                        <label for="slide_2_2"></label>
+                        <label for="slide_2_3"></label>
+                        <label for="slide_2_4"></label>
+                    </div>
+                </div>
+            </div>
+
+
+                <!-- einde -->
+
+
+                <!-- begin -->
+
+
+
+
+                <div class="testimonial">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Alleen het gebouw is al de moeite waard. Mooie schilderijen van grote meesters
+                                    aanschouwd en de bibliotheek bezocht.
+                                    Wij wisten niet dat een tijdslot-reservering noodzakelijk was maar gelukkig werden
+                                    we zéér goed geholpen door het personeel bij de ingang (op straat)
+                                    men merkte dat we hulp nodig hadden en boden dit gelijk aan. Perfecte service!!</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-1.png" alt="foto van een glimlachende vrouw">
+                                <h3>Swetie Sweetland</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Gewoon hoe een goed museum is en hoort te zijn. Top Notch. Uitstekende beveiliging
+                                    overal, prachtige
+                                    collecties en alles is zeer overzichtelijk. Kennismaken met Nederlands rijke en af
+                                    en toe donkere
+                                    historie is op deze manier adembenemend.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-2.png" alt="man die in de camera kijkt">
+                                <h3>Dhifte Waaye</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Als je het koud hebt en een warm plekje met veel sfeer zoekt is dit de
+                                    juiste plaats! wij hebben heerlijk genoten van een kop koffie hier</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-3.png" alt="vrouw die in de camera kijkt">
+                                <h3>Dhifte Waaye</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Prachtig gebouw, vriendelijk personeel. Zalen zijn ruim en goed aangegeven.
+                                    Jammer dat het af en toe wat beter verlicht zou kunnen worden.
+                                    De bekende Nederlandse meesters spraken ons het meeste aan.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-3.png" alt="vrouw die in de camera kijkt">
+                                <h3>Dhifte Waaye</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Het Rijksmuseum blijft een geweldig museum.
+                                    We hebben nu alleen de tentoonstelling “Vergeet me niet” gedaan en daar zijn we al
+                                    een poos mee zoet geweest.
+                                    We deden de audio tour en dat heeft zeker meerwaarde.
+                                    Altijd doen. Dit kan ook via je eigen telefoon.
+                                    Het bestellen in het restaurant via een code en online was nieuw voor ons,
+                                    maar werkte prima!</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-1.png" alt="foto van een glimlachende vrouw">
+                                <h3>Dhifte Waaye</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>Het Rijksmuseum is absolute wereldklasse.
+                                    Prachtige kunstwerken bevinden zich in een schitterend museumgebouw dat op zichzelf
+                                    al een kunstwerk is.
+                                    Een compliment aan de museummedewerkers,
+                                    klantvriendelijkheid scoort hoog en ook dat draagt bij aan beleving. </p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <img src="user-2.png" alt="man die in de camera kijkt">
+                                <h3>Duflaale</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- eonde -->
     </article>
 
 
@@ -487,36 +524,37 @@
 
 
 
-<!-- begin script -->
+    <!-- begin script -->
 
-<script>
-    $(document).ready(function(){
-		pagenum = 1;
-		function AutoRotate() {
-		   var myele = null;
-		   var allElements = document.getElementsByTagName('label');
-		   for (var i = 0, n = allElements.length; i < n; i++) {
-			   var myfor = allElements[i].getAttribute('for');
-			   if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
-				   allElements[i].click();
-				   break;
-			   }
-		   }
-		   if (pagenum == 4) {
-			   pagenum = 1;
-		   } else {
-			   pagenum++;
-		   }
-		}
-		setInterval(AutoRotate, 5000);
-	});
-</script>
+    <script>
+        $(document).ready(function () {
+            pagenum = 1;
+            function AutoRotate() {
+                var myele = null;
+                var allElements = document.getElementsByTagName('label');
+                for (var i = 0, n = allElements.length; i < n; i++) {
+                    var myfor = allElements[i].getAttribute('for');
+                    if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+                        allElements[i].click();
+                        break;
+                    }
+                }
+                if (pagenum == 4) {
+                    pagenum = 1;
+                } else {
+                    pagenum++;
+                }
+            }
+            setInterval(AutoRotate, 5000);
+        });
+    </script>
 
 
-<!-- einde script -->
+    <!-- einde script -->
 
 
 
 
 </body>
+
 </html>
